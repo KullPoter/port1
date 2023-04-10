@@ -1,0 +1,436 @@
+h1{
+    color: black;
+    font-weight: bold;
+    font-family: Arial Black;
+}
+.back-mass{
+    display: flex;
+    
+    list-style: none;
+}
+.first-str{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.back-mass li{
+    padding: 10px;
+}
+.back-mass li a{
+    text-decoration: none;
+    color: rgb(26, 25, 25);
+}
+.back-mass li a:hover{
+    color: gray;
+}
+h2{
+    color: black;
+    font-weight: bold;
+    font-size: 38px;
+}
+.minorh2{
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+}
+.second-str{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.blok2{
+    /* width: 1074px;
+    height: 286px; */
+    width: 60%;
+   
+
+}
+.blo1 img{
+    width: 154px;
+    animation: anim 3s infinite;
+}
+.blo1-list{
+    font-weight: bold;
+    font-size: 27px;
+    text-align: center;
+}
+.blo1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 155px;
+}
+.blo2 p{
+    width: 155px;
+    text-align: center;
+    color: black;
+    font-style: italic;
+}
+.blo3{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 155px;
+}
+.blo3 img{
+    width: 154px;
+    animation: anim 3s infinite;
+}
+.blo3-list{
+    font-weight: bold;
+    font-size: 27px;
+    text-align: center;
+}
+.blo4 p{
+    width: 155px;
+    text-align: center;
+    color: black;
+    font-style: italic;
+}
+.blo5{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 155px;
+}
+.blo5-list{
+    font-weight: bold;
+    font-size: 27px;
+    text-align: center;
+}
+.blo6 p{
+    width: 155px;
+    text-align: center;
+    color: black;
+    font-style: italic;
+}
+.wrap-str-3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 59px;
+    flex-wrap: wrap;
+}
+.blo5 img{
+    width: 154px;
+    height: 143px;
+    animation: anim 3s infinite;
+}
+.blo7{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 155px;
+}
+.blo7-list{
+    font-weight: bold;
+    font-size: 27px;
+    text-align: center;
+}
+.blo8 p{
+    width: 155px;
+    text-align: center;
+    color: black;
+    font-style: italic;
+}
+.blo7 img{
+    width: 154px;
+    animation: anim 3s infinite;
+}
+
+@keyframes anim{
+    from{
+        
+        transform: scaleX(0);
+    }
+    50%{
+        transform: scaleX(1);
+    }
+    to{
+        
+        transform: scaleX(1);
+    }
+}
+
+
+.act-mass li a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.act-mass li{
+    padding-top: 10px;
+}
+.act-burg{
+    display: none;
+}
+@media(max-width: 548px){
+.back-menu{
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    top: -100%;
+    /* margin-top: -200%; */
+}
+.second-str{
+justify-content: center;
+}
+.blok2{
+    width: 90%;
+}
+.act-burg{
+    display: block;
+    width: 50px;
+    height: 50px;
+  margin-top: 13px;
+    position: relative;
+}
+.line1{
+    display: block;
+position: absolute;
+width: 100%;
+border: 1px solid black;
+top: 23px;
+}
+.lin2{
+    position: absolute;
+width: 100%;
+border: 1px solid black;
+top: 33px;
+transition: 0.3s;
+}
+.line3{
+    position: absolute;
+width: 100%;
+border: 1px solid black;
+top: 43px;
+transition: 0.3s;
+}
+.back-mass{
+    flex-direction: column;
+}
+.bsck-mass li a{
+    color: white;
+}
+.act-mass{
+    flex-direction: column;
+}
+.act-men{
+    background-color: black;
+    width: 100%;
+   position: absolute;
+   top: 121px;
+   /* margin-top: 121px; */
+   transition: 0.3s;
+}
+.act-lin1{
+    display: none;
+}
+.act-lin2{
+    rotate: 45deg;
+    margin-top: 9px;
+    transition: 0.3s;
+}
+.act-lin3{
+    transition: 0.3s;
+    rotate: -45deg;
+    /* margin-top: 9px; */
+}
+}
+.container2{
+    background-color: gainsboro;
+    width: 100%;
+    
+}
+h3{
+    color: black;
+    font-weight: bold;
+    font-family: Arial Black;
+    text-align: center;
+    font-size: 47px;
+    padding-top: 96px;
+}
+.cloth1{
+    text-align:center
+}
+.cloth1 a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.cloth1 img{
+    width: 45%;
+}
+.cloth2{
+    text-align:center;
+    margin-top: 100px;
+}
+.cloth2 a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.cloth2 img{
+    width: 45%;
+}
+.cloth3{
+    text-align:center;
+    margin-top: 100px;
+}
+.cloth3 img{
+    width: 45%;
+}
+.cloth3 a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.myproj{
+    width: 668px;
+    height: 400px;
+  
+    overflow: hidden;
+    position: relative;
+}
+.inside{
+    display: flex;
+    transition: 0.4s;
+    
+    position: absolute;
+    left: 0;
+}
+h4{
+    text-align: center;
+    font-size: 33px;
+}
+.inside img{
+    width: 100%;
+}
+.wr{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.left{
+    width: 72px;
+    height: 68px;
+    font-size: 26px;
+    color: white;
+    background-color: black;
+    /* margin-top: -68px; */
+    position: absolute;
+    top: -227px;
+}
+.right{
+    width: 72px;
+    height: 68px;
+    font-size: 26px;
+    color: white;
+    background-color: black;
+    /* margin-top: -68px; */
+    position: absolute;
+    top: -227px;
+}
+.rig{
+    margin-right: 89px;
+}
+@media (max-width: 695px) {
+    .myproj{
+        width: 340px;
+    }
+}
+.inside img{
+    width: 340px;
+}
+
+a{
+    color: #666666;
+  }
+  .nav-tabs{
+    display: flex;
+  }
+  .nav-tab{
+    font-size: 20px;
+    margin-right: 10px;
+    padding: 20px 30px 20px 30px;
+    border: 2px solid#eeeeee;
+    border-bottom: 0;
+    text-decoration: none;
+  }
+  .nav-tab.active{
+    background: #eeeeee;
+    cursor: default;               
+  }
+  .tab-content{
+    font-size: 20px;
+    background: #eeeeee;
+  }
+  .tab-pane{
+    display: none;
+    padding: 30px;
+  }
+  .tab-pane.active{
+    display: flex;
+  }
+  h5{
+    text-align: center;
+    font-size: 40px;
+  }
+  .ity{
+    width:36%; 
+       margin-left: 64px;
+  }
+  .plk{
+    width: 36%;
+    height: 278px;
+  }
+  @media(max-width:761px){
+    .ity{
+        margin-left: -311px;
+        margin-top: 278px;
+        font-size: 16px;
+        width: 100%;
+    }
+    .plk{
+        height: 278px;
+        width: 100%;
+    
+    }
+  
+  }
+  .container6{
+    text-align: center;
+  }
+  h6{
+    font-size: 45px;
+  }
+  .bq2{
+    margin-top: -72px;
+  }
+  .bq2 span{
+    font-size: 30px;
+  }
+  .bq3{
+    margin-top: 52px;
+  }
+  .bq3 button{
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    color: white;
+    background-color: black;
+  }
+  .bq5{
+    margin-top: 22px;
+  }
+  .bq5 img{
+    padding: 20px;
+  }
+
+
